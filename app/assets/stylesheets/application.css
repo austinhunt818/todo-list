@@ -8,3 +8,69 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+ }
+
+ .content{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ 
+ nav{
+    background-color: rgb(62, 71, 80);
+    margin: 0;
+    padding: 10;
+    height: 70px;
+    align-content: center;
+ }
+
+ nav a{
+    font-family: sans-serif;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    text-decoration: none;
+ }
+
+ nav a:hover{
+    font-family: sans-serif;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    color: rgb(169, 168, 168);
+    text-decoration: none;
+ }
+
+ #tasks{
+    padding: 10px;
+ }
+
+ #tasks div{
+    display: flex;
+    flex-direction: row;
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+ body > li{
+    list-style-type: none;
+ }
+
+ li div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+ }
